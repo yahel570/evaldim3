@@ -26,7 +26,7 @@ function getTarget() {
     // Next, select randomly the index from which we will get the value from each array
     var index = Math.floor(Math.random() * targetRatings.length);
 
-    return({rating: targetRatings[index], attributes: targetAttributes[index],
+    return({trials: trialsOther[index], rating: targetRatings[index], attributes: targetAttributes[index],
 		ratingFiller1: filler1Ratings[index], attributesFiller1: filler1Attributes[index],
 		ratingFiller2: filler2Ratings[index], attributesFiller2: filler2Attributes[index],
 		ratingFiller3: filler3Ratings[index], attributesFiller3: filler3Attributes[index],
